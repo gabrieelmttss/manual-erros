@@ -65,8 +65,12 @@ li {
     border: 0.1vh solid black;
     border-radius: 0.4rem;
     width: 28%;
-    min-height: 20rem;
+    min-height: 15rem;
     gap: 1rem;
+}
+
+.content-li:hover {
+    border: 1px solid red;
 }
 
 .img-content {
