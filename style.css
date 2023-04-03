@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background: black;
+}
+
+.header-nav-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-logo {
+    width: 80%;
+    padding-top: 0.4rem;
+}
+
+.header-li {
+    display: flex;
+    gap: 2rem;
+}
+
+.header-links {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.header-links:hover {
+    color: rgb(138, 138, 138);
+}
+
+.allContent {
+}
+
+.section-content {
+    width: 100%;
+    margin: 1.5rem auto;
+}
+
+.content-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.content-li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0.1vh solid black;
+    border-radius: 0.4rem;
+    width: 28%;
+    min-height: 20rem;
+    gap: 2rem;
+}
+
+.img-content {
+    max-width: 95%;
+    min-height: auto;
+}
+
+.paragrafos-content {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    border-top: 1px solid rgb(139, 139, 139);
+    gap: 20rem;
+}
+
+.containers-footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-copy, .footer-p-desenvolvimento {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-myphoto {
+    border-radius: 50%;
+}
+
+.section-ol-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1.2rem 15rem 0rem 15rem;
+    justify-content: center;
+}
+
+.section-li {
+
+}
+
+.section-li img {
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.section-li p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.img-fulvio {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
