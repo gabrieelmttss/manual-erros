@@ -29,6 +29,7 @@ li {
 .header-li {
     display: flex;
     gap: 2rem;
+    align-items: center;
 }
 
 .header-links {
@@ -152,7 +153,25 @@ li {
         border: none;
     }
 
+    .container-footer {
+        gap: 0rem;
+        padding: 0rem;
+        flex-direction: column;
+        margin: 0rem;
+    }
+
+    .containers-footer {
+        gap: 0rem;
+        padding: 0rem;
+        margin: 0 rem;
+    }
+
+    .footer-logojad, .footer-myphoto {
+        display: none;
+    }
+
     .header {
         width: 100%;
+        align-items: center;
     }
 }
