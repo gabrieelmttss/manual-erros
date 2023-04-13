@@ -95,10 +95,8 @@ li {
 
 .container-footer {
     display: flex;
-    justify-content: space-around;
     text-align: center;
     align-items: center;
-    height: 100%;
     border-top: 1px solid rgb(139, 139, 139);
     gap: 20rem;
 }
@@ -150,28 +148,38 @@ li {
 @media (max-width: 900px) {
 
     .content-li {
-        border: none;
     }
 
     .container-footer {
-        gap: 0rem;
-        padding: 0rem;
         flex-direction: column;
-        margin: 0rem;
+        gap: 0rem;
     }
 
     .containers-footer {
-        gap: 0rem;
-        padding: 0rem;
-        margin: 0 rem;
+        gap: 1rem;
+        margin-top: 1rem;
     }
 
-    .footer-logojad, .footer-myphoto {
-        display: none;
+    .footer-myphoto {
+        width: 80px;
+        height: 70px;
     }
 
     .header {
         width: 100%;
         align-items: center;
+    }
+
+    .content-li {
+        justify-content: initial;
+        width: 45%;
+    }
+
+    .header-logo-container {
+        width: 130px;
+    }
+    
+    .header-links {
+        font-size: 1rem;
     }
 }
