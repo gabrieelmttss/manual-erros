@@ -42,6 +42,7 @@ li {
 }
 
 .allContent {
+    min-width: 100%;
 }
 
 .section-content {
@@ -143,4 +144,15 @@ li {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
+}
+
+@media (max-width: 900px) {
+
+    .content-li {
+        border: none;
+    }
+
+    .header {
+        width: 100%;
+    }
 }
