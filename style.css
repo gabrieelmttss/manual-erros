@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,34 +14,57 @@ li {
 }
 
 .header {
-    background: black;
-}
-
-.header-nav-div {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    position: relative;
 }
 
-.header-logo {
-    width: 80%;
-    padding-top: 0.4rem;
+.img-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logoHelp {
+    width: 40%;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: white;
+    padding: 0.4rem 2rem 0.4rem 0.4rem;
+}
+
+.lista-menu-titulo {
+    color: #EB9B00;
+    font-weight: 600;
+}
+
+.lista-menu-link {
+    color: #002F52;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.lista-menu-titulo, .lista-menu-item {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    padding: 0.8rem 0rem 0.6rem 1rem;
 }
 
 .header-li {
     display: flex;
     gap: 2rem;
-    align-items: center;
 }
 
-.header-links {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    color: white;
+.container__botao {
+    display: none;
 }
 
-.header-links:hover {
-    color: rgb(138, 138, 138);
+.container__botao:checked ~ .lista-menu {
+    display: block;
 }
 
 .allContent {
@@ -143,43 +168,4 @@ li {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
-}
-
-@media (max-width: 900px) {
-
-    .content-li {
-    }
-
-    .container-footer {
-        flex-direction: column;
-        gap: 0rem;
-    }
-
-    .containers-footer {
-        gap: 1rem;
-        margin-top: 1rem;
-    }
-
-    .footer-myphoto {
-        width: 80px;
-        height: 70px;
-    }
-
-    .header {
-        width: 100%;
-        align-items: center;
-    }
-
-    .content-li {
-        justify-content: initial;
-        width: 45%;
-    }
-
-    .header-logo-container {
-        width: 130px;
-    }
-    
-    .header-links {
-        font-size: 1rem;
-    }
 }
